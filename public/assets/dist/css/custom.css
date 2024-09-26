@@ -6,3 +6,11 @@
  */
 
 /*# sourceMappingURL=custom.css.map */
+
+.truncate-text {
+    white-space: nowrap;           /* Prevents text from wrapping to the next line */
+    overflow: hidden;              /* Ensures the text overflows */
+    text-overflow: ellipsis;       /* Adds the ellipsis (...) when text overflows */
+    max-width: 200px;              /* Adjust this value based on how much space you want */
+}
+

@@ -20,6 +20,7 @@
     <!-- Template CSS -->
     <link rel="stylesheet" href="{{ asset('assets/dist/css/style.css') }}">
     <link rel="stylesheet" href="{{ asset('assets/dist/css/components.css') }}">
+    <link rel="stylesheet" href="{{ asset('assets/dist/css/custom.css') }}">
 </head>
 
 <body>
@@ -58,6 +59,7 @@
     <script src="{{ asset('assets/dist/modules/datatables/DataTables-1.10.16/js/dataTables.bootstrap4.min.js') }}"></script>
     <script src="{{ asset('assets/dist/modules/datatables/Select-1.2.4/js/dataTables.select.min.js') }}"></script>
     <script src="{{ asset('assets/dist/modules/jquery-ui/jquery-ui.min.js') }}"></script>
+    <script src="https://cdn.jsdelivr.net/npm/popper.js@1.16.1/dist/umd/popper.min.js"></script>
 
     <!-- Modal JS File -->
     <script src="{{ asset('assets/dist/js/page/bootstrap-modal.js') }}"></script>
